@@ -1,7 +1,7 @@
 
 
 def turn_count(board)
-board.count do |v|
+board.each do |v|
   v == "X" && "O"
 end
 end
