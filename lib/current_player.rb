@@ -1,9 +1,9 @@
 
 
 def turn_count(board)
-  
+
 board.count do |v|
-  v == "X" && "O" 
+  v == "X" && "O"
 end
 end
 
