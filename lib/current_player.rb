@@ -2,9 +2,9 @@
 
 def turn_count(board)
 
-    board.each do |x|
-      if x == "X" || "O"
-        return x += 1
+    board.each do |w|
+      if w == "X" || "O"
+        w.count
     end
   end
 
