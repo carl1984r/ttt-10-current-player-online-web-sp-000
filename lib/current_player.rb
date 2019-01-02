@@ -1,10 +1,10 @@
 
 
 def turn_count(board)
-vv = 0
-until vv == 9
-  board.length
-  end
+  count = 0
+board.each do |w|
+  if w == "X" || "O"
+    count += 1
 end
 
 def current_player
